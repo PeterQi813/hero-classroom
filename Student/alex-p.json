@@ -1,0 +1,40 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/alex-p",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Alex Park",
+      "shortName": "Alex P.",
+      "grade": "2nd Grade",
+      "age": 8,
+      "location": "In Classroom",
+      "locationDetail": null,
+      "returnTime": null,
+      "avatar": "https://i.pravatar.cc/200?img=59",
+      "tags": ["504"],
+      "title": "Alex Park",
+      "schedule": [
+        { "time": "8:45", "activity": "Homeroom", "status": "Done", "result": "Present", "goalTag": null },
+        { "time": "9:00", "activity": "DI Math Lesson 48", "status": "Done", "result": "16/20", "goalTag": "Goal: Word problems" },
+        { "time": "10:00", "activity": "Reading Mastery L24", "status": "Current", "result": null, "goalTag": null },
+        { "time": "11:00", "activity": "Lunch + Recess", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "12:30", "activity": "Science: Ecosystems", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "2:00", "activity": "PE", "status": "Upcoming", "result": null, "goalTag": null }
+      ],
+      "alerts": []
+    },
+    "relationships": {
+      "supportStaff": {
+        "links": { "self": "../Staff/mr-reyes" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/mr-reyes" }
+      }
+    }
+  }
+}

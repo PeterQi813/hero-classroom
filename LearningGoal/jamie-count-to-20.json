@@ -1,0 +1,33 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/jamie-count-to-20",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Count to 20 with 1:1 correspondence",
+      "description": "Student will demonstrate the ability to count to 20 using one-to-one correspondence with manipulatives, achieving mastery in 4 of 5 consecutive trials.",
+      "domain": "Math",
+      "priority": "High",
+      "currentMastery": 68,
+      "targetMastery": 80,
+      "title": "Count to 20 with 1:1 correspondence"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/jamie-chen"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen"
+        }
+      }
+    }
+  }
+}

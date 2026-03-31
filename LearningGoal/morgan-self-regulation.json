@@ -1,0 +1,28 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/morgan-self-regulation",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Use self-regulation strategies independently",
+      "description": "Student will independently use at least one self-regulation strategy (deep breaths, break card, counting) when frustrated, in 3 of 5 observed opportunities.",
+      "domain": "Social",
+      "priority": "High",
+      "currentMastery": 40,
+      "targetMastery": 75,
+      "title": "Use self-regulation strategies independently"
+    },
+    "relationships": {
+      "student": {
+        "links": { "self": "../Student/morgan-s" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/morgan-s" }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/ActivityEntry/jamie-behavioral-9-15",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T09:15:00.000Z",
+      "content": "Needed extra transition support after arrival. May be related to poor sleep per parent note.",
+      "entryType": "Behavioral",
+      "score": null,
+      "aiTagged": "false",
+      "flagNote": "Note for team",
+      "title": "Behavioral Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": { "self": "../Staff/mr-reyes" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/mr-reyes" }
+      },
+      "student": {
+        "links": { "self": "../Student/jamie-chen" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen" }
+      },
+      "goalLink": {
+        "links": { "self": null },
+        "data": null
+      }
+    }
+  }
+}

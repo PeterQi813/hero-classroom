@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/ActivityEntry/jamie-math-9-45",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T09:45:00.000Z",
+      "content": "DI Math Lesson 45 complete. Great focus on counting patterns. Demonstrated 1:1 correspondence with cubes up to 18.",
+      "entryType": "Academic",
+      "score": "18/20",
+      "aiTagged": "false",
+      "flagNote": null,
+      "title": "Academic Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": { "self": "../Staff/dr-patel" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/dr-patel" }
+      },
+      "student": {
+        "links": { "self": "../Student/jamie-chen" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen" }
+      },
+      "goalLink": {
+        "links": { "self": "../LearningGoal/jamie-count-to-20" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/jamie-count-to-20" }
+      }
+    }
+  }
+}

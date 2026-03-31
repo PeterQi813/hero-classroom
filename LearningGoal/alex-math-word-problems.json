@@ -1,0 +1,28 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/alex-math-word-problems",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Solve single-step word problems",
+      "description": "Student will solve single-step addition and subtraction word problems within 20, with 80% accuracy across 5 consecutive assignments.",
+      "domain": "Math",
+      "priority": "High",
+      "currentMastery": 60,
+      "targetMastery": 85,
+      "title": "Solve single-step word problems"
+    },
+    "relationships": {
+      "student": {
+        "links": { "self": "../Student/alex-p" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/alex-p" }
+      }
+    }
+  }
+}

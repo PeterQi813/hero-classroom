@@ -1,0 +1,33 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/jamie-request-help",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Request help appropriately",
+      "description": "Student will independently request help from peers or adults using appropriate language and volume, in 3 of 4 observed opportunities.",
+      "domain": "Social",
+      "priority": "Medium",
+      "currentMastery": 45,
+      "targetMastery": 75,
+      "title": "Request help appropriately"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/jamie-chen"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/ActivityEntry/noah-speech-9-30",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T09:30:00.000Z",
+      "content": "Speech therapy: Worked on /r/ sound in initial position. Noah produced correctly in 6 of 10 single words. Moving to short phrases next session.",
+      "entryType": "Academic",
+      "score": "6/10",
+      "aiTagged": "false",
+      "flagNote": null,
+      "title": "Academic Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": { "self": "../Staff/dr-patel" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/dr-patel" }
+      },
+      "student": {
+        "links": { "self": "../Student/noah-b" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/noah-b" }
+      },
+      "goalLink": {
+        "links": { "self": "../LearningGoal/noah-speech-articulation" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/noah-speech-articulation" }
+      }
+    }
+  }
+}

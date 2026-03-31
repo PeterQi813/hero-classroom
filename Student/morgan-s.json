@@ -1,0 +1,40 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/morgan-s",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Morgan Scott",
+      "shortName": "Morgan S.",
+      "grade": "2nd Grade",
+      "age": 7,
+      "location": "In Classroom",
+      "locationDetail": null,
+      "returnTime": null,
+      "avatar": "https://i.pravatar.cc/200?img=25",
+      "tags": ["IEP"],
+      "title": "Morgan Scott",
+      "schedule": [
+        { "time": "8:45", "activity": "Homeroom", "status": "Done", "result": "Present", "goalTag": null },
+        { "time": "9:00", "activity": "DI Math Lesson 43", "status": "Done", "result": "14/20", "goalTag": null },
+        { "time": "10:00", "activity": "Reading Mastery L17", "status": "Current", "result": null, "goalTag": null },
+        { "time": "11:00", "activity": "Lunch + Recess", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "12:30", "activity": "Social Skills Group", "status": "Upcoming", "result": null, "goalTag": "Goal: Self-regulation" },
+        { "time": "2:00", "activity": "Science: Ecosystems", "status": "Upcoming", "result": null, "goalTag": null }
+      ],
+      "alerts": []
+    },
+    "relationships": {
+      "supportStaff": {
+        "links": { "self": "../Staff/mr-reyes" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/mr-reyes" }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/ms-green",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Staff",
+        "module": "../staff"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Ms. Green",
+      "role": "Lead Teacher",
+      "initials": "JG",
+      "color": "teal",
+      "avatar": null,
+      "title": "Ms. Green"
+    },
+    "relationships": {}
+  }
+}

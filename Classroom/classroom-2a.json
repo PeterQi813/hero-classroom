@@ -1,0 +1,39 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Classroom/classroom-2a",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Classroom",
+        "module": "../classroom"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "classroomName": "Classroom 2A",
+      "date": "2026-02-05",
+      "title": "Classroom 2A"
+    },
+    "relationships": {
+      "teacher": {
+        "links": { "self": "../Staff/ms-green" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/ms-green" }
+      },
+      "students": {
+        "links": {
+          "self": null
+        },
+        "data": [
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/riley-k" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/alex-p" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/morgan-s" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/casey-w" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/noah-b" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/emma-w" },
+          { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/liam-c" }
+        ]
+      }
+    }
+  }
+}

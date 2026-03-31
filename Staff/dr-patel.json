@@ -1,0 +1,22 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/dr-patel",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Staff",
+        "module": "../staff"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Dr. Patel",
+      "role": "Specialist",
+      "initials": "DP",
+      "color": "coral",
+      "avatar": null,
+      "title": "Dr. Patel"
+    },
+    "relationships": {}
+  }
+}

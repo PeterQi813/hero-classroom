@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/ActivityEntry/riley-reading-9-30",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T09:30:00.000Z",
+      "content": "Reading Mastery L18 complete. Riley decoded 15 of 18 words correctly. Struggled with blends (bl-, cr-) but self-corrected on 2nd attempt.",
+      "entryType": "Academic",
+      "score": "15/18",
+      "aiTagged": "false",
+      "flagNote": null,
+      "title": "Academic Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": { "self": "../Staff/ms-rivers" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/ms-rivers" }
+      },
+      "student": {
+        "links": { "self": "../Student/riley-k" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/riley-k" }
+      },
+      "goalLink": {
+        "links": { "self": "../LearningGoal/riley-reading-fluency" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/riley-reading-fluency" }
+      }
+    }
+  }
+}

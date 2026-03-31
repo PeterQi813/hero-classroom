@@ -1,0 +1,28 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/emma-w",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Emma Walsh",
+      "shortName": "Emma W.",
+      "grade": "2nd Grade",
+      "age": 7,
+      "location": "Absent",
+      "locationDetail": "Sick — Parent notified",
+      "returnTime": null,
+      "avatar": "https://i.pravatar.cc/200?img=9",
+      "tags": [],
+      "title": "Emma Walsh",
+      "schedule": [],
+      "alerts": []
+    },
+    "relationships": {}
+  }
+}

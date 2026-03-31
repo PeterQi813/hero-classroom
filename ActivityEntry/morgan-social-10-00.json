@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/ActivityEntry/morgan-social-10-00",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T10:00:00.000Z",
+      "content": "Morgan got frustrated during reading group when asked to wait his turn. Used break card independently after verbal prompt. Returned after 3 min and rejoined the group calmly.",
+      "entryType": "Behavioral",
+      "score": null,
+      "aiTagged": "true",
+      "flagNote": null,
+      "title": "Behavioral Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": { "self": "../Staff/mr-reyes" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/mr-reyes" }
+      },
+      "student": {
+        "links": { "self": "../Student/morgan-s" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/morgan-s" }
+      },
+      "goalLink": {
+        "links": { "self": "../LearningGoal/morgan-self-regulation" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/morgan-self-regulation" }
+      }
+    }
+  }
+}

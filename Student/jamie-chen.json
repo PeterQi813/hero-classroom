@@ -1,0 +1,48 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Jamie Chen",
+      "shortName": "Jamie C.",
+      "grade": "2nd Grade",
+      "age": 7,
+      "location": "In Classroom",
+      "locationDetail": null,
+      "returnTime": null,
+      "avatar": "https://i.pravatar.cc/200?img=33",
+      "tags": ["IEP", "Allergy"],
+      "title": "Jamie Chen",
+      "schedule": [
+        { "time": "8:45", "activity": "Homeroom", "status": "Done", "result": "Present", "goalTag": null },
+        { "time": "9:00", "activity": "DI Math Lesson 45", "status": "Done", "result": "18/20", "goalTag": null },
+        { "time": "10:00", "activity": "Reading Mastery L22", "status": "Current", "result": null, "goalTag": null },
+        { "time": "11:00", "activity": "Lunch + Recess", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "12:30", "activity": "Science: Ecosystems", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "2:00", "activity": "Social Skills Group", "status": "Upcoming", "result": null, "goalTag": "Goal: Request help" }
+      ],
+      "alerts": [
+        { "alertType": "Pickup Change", "urgency": "Urgent", "message": "Jamie → Aunt Wei @ 3:30", "detail": "Verified 8:15 AM" },
+        { "alertType": "Parent Note", "urgency": "Info", "message": "Poor sleep last night — may be tired", "detail": null }
+      ]
+    },
+    "relationships": {
+      "supportStaff": {
+        "links": {
+          "self": "../Staff/ms-rivers"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/ms-rivers"
+        }
+      }
+    }
+  }
+}

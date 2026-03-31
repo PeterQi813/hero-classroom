@@ -1,0 +1,28 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/casey-fine-motor",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Write legibly on lined paper",
+      "description": "Student will write uppercase and lowercase letters within the lines with correct letter formation, achieving legibility in 4 of 5 writing samples.",
+      "domain": "Motor",
+      "priority": "Medium",
+      "currentMastery": 50,
+      "targetMastery": 80,
+      "title": "Write legibly on lined paper"
+    },
+    "relationships": {
+      "student": {
+        "links": { "self": "../Student/casey-w" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/casey-w" }
+      }
+    }
+  }
+}

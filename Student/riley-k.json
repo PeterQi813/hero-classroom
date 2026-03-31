@@ -1,0 +1,42 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/riley-k",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Riley Kim",
+      "shortName": "Riley K.",
+      "grade": "2nd Grade",
+      "age": 7,
+      "location": "In Classroom",
+      "locationDetail": null,
+      "returnTime": null,
+      "avatar": "https://i.pravatar.cc/200?img=12",
+      "tags": ["IEP"],
+      "title": "Riley Kim",
+      "schedule": [
+        { "time": "8:45", "activity": "Homeroom", "status": "Done", "result": "Present", "goalTag": null },
+        { "time": "9:00", "activity": "Reading Mastery L18", "status": "Done", "result": "15/18", "goalTag": "Goal: Reading fluency" },
+        { "time": "10:00", "activity": "DI Math Lesson 42", "status": "Current", "result": null, "goalTag": null },
+        { "time": "11:00", "activity": "Lunch + Recess", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "12:30", "activity": "Writing Workshop", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "2:00", "activity": "Art", "status": "Upcoming", "result": null, "goalTag": null }
+      ],
+      "alerts": [
+        { "alertType": "Medication", "urgency": "Urgent", "message": "Riley — ADHD med due @ 11:30 AM", "detail": "Nurse notified" }
+      ]
+    },
+    "relationships": {
+      "supportStaff": {
+        "links": { "self": "../Staff/ms-rivers" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/ms-rivers" }
+      }
+    }
+  }
+}

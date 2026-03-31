@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/ActivityEntry/jamie-morning-8-50",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T08:50:00.000Z",
+      "content": "Arrived on time. Greeted peers warmly. Unpacked bag independently.",
+      "entryType": "Social",
+      "score": null,
+      "aiTagged": "false",
+      "flagNote": null,
+      "title": "Social Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": { "self": "../Staff/ms-rivers" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/ms-rivers" }
+      },
+      "student": {
+        "links": { "self": "../Student/jamie-chen" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/jamie-chen" }
+      },
+      "goalLink": {
+        "links": { "self": "../LearningGoal/jamie-request-help" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/LearningGoal/jamie-request-help" }
+      }
+    }
+  }
+}

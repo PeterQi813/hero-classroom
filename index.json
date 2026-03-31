@@ -1,0 +1,52 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/index",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "IndexCard",
+        "module": "https://cardstack.com/base/index"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "cardTitle": "Hero Classroom",
+      "realmName": "Hero Classroom"
+    },
+    "relationships": {
+      "cardsGrid": {
+        "links": {
+          "self": "./cards-grid"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/hero-classroom/cards-grid"
+        }
+      }
+    },
+    "links": {
+      "self": "https://app.boxel.ai/itp_project/hero-classroom/index"
+    }
+  },
+  "included": [
+    {
+      "id": "https://app.boxel.ai/itp_project/hero-classroom/cards-grid",
+      "meta": {
+        "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+        "adoptsFrom": {
+          "name": "CardsGrid",
+          "module": "https://cardstack.com/base/cards-grid"
+        }
+      },
+      "type": "card",
+      "attributes": {
+        "cardTitle": "Hero Classroom",
+        "realmName": "Hero Classroom"
+      },
+      "relationships": {},
+      "links": {
+        "self": "./cards-grid"
+      }
+    }
+  ]
+}

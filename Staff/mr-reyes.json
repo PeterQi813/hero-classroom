@@ -1,0 +1,22 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/mr-reyes",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Staff",
+        "module": "../staff"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "M. Reyes",
+      "role": "Assistant",
+      "initials": "MR",
+      "color": "purple",
+      "avatar": null,
+      "title": "M. Reyes"
+    },
+    "relationships": {}
+  }
+}

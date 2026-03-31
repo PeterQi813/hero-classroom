@@ -1,0 +1,42 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/casey-w",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Casey Wilson",
+      "shortName": "Casey W.",
+      "grade": "2nd Grade",
+      "age": 7,
+      "location": "At Specialists",
+      "locationDetail": "OT with J. Novak",
+      "returnTime": "Back 10:45",
+      "avatar": "https://i.pravatar.cc/200?img=48",
+      "tags": [],
+      "title": "Casey Wilson",
+      "schedule": [
+        { "time": "8:45", "activity": "Homeroom", "status": "Done", "result": "Present", "goalTag": null },
+        { "time": "9:00", "activity": "OT Session — Fine Motor", "status": "Current", "result": null, "goalTag": "Goal: Fine motor" },
+        { "time": "10:45", "activity": "DI Math Lesson 44", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "11:00", "activity": "Lunch + Recess", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "12:30", "activity": "Reading Mastery L20", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "2:00", "activity": "Music", "status": "Upcoming", "result": null, "goalTag": null }
+      ],
+      "alerts": [
+        { "alertType": "Pickup Change", "urgency": "Info", "message": "Casey — Dad picking up @ 3:00 (early)", "detail": "Office notified" }
+      ]
+    },
+    "relationships": {
+      "supportStaff": {
+        "links": { "self": "../Staff/j-novak" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/j-novak" }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/liam-c",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Liam Carter",
+      "shortName": "Liam C.",
+      "grade": "2nd Grade",
+      "age": 8,
+      "location": "Absent",
+      "locationDetail": "Family appointment",
+      "returnTime": null,
+      "avatar": "https://i.pravatar.cc/200?img=61",
+      "tags": [],
+      "title": "Liam Carter",
+      "schedule": [],
+      "alerts": []
+    },
+    "relationships": {}
+  }
+}

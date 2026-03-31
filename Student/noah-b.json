@@ -1,0 +1,40 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/hero-classroom/Student/noah-b",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/hero-classroom/",
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Noah Brooks",
+      "shortName": "Noah B.",
+      "grade": "2nd Grade",
+      "age": 8,
+      "location": "At Specialists",
+      "locationDetail": "Speech with Dr. Patel",
+      "returnTime": "Back 11:00",
+      "avatar": "https://i.pravatar.cc/200?img=56",
+      "tags": [],
+      "title": "Noah Brooks",
+      "schedule": [
+        { "time": "8:45", "activity": "Homeroom", "status": "Done", "result": "Present", "goalTag": null },
+        { "time": "9:00", "activity": "DI Math Lesson 46", "status": "Done", "result": "17/20", "goalTag": null },
+        { "time": "10:00", "activity": "Speech Therapy", "status": "Current", "result": null, "goalTag": "Goal: Articulation" },
+        { "time": "11:00", "activity": "Lunch + Recess", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "12:30", "activity": "Reading Mastery L19", "status": "Upcoming", "result": null, "goalTag": null },
+        { "time": "2:00", "activity": "Science: Ecosystems", "status": "Upcoming", "result": null, "goalTag": null }
+      ],
+      "alerts": []
+    },
+    "relationships": {
+      "supportStaff": {
+        "links": { "self": "../Staff/dr-patel" },
+        "data": { "type": "card", "id": "https://app.boxel.ai/itp_project/hero-classroom/Staff/dr-patel" }
+      }
+    }
+  }
+}
